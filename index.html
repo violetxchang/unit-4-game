@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crystal Collector</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Tenor+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crystal Collector</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Tenor+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
-        <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h1>Crystal Collector</h1>
-                  </div>
-                </div>
 
-                <div class="row">
-                  <div class="col-sm-12">
-                    Instructions
-                  </div>
-                </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Crystal Collector</h1>
+      </div>
+    </div>
 
-                <div class="row">
-                        <div class="col-sm-4" id="randomNumber">num 
-                            <div>random number</div>
-                        </div>
-                        <div class="col-sm-4" id="yourTotal">total
-                            <div>your total</div>
-                        </div>
-                        <div class="col-sm-4" id="scoreBoard">scoreboard
-                            <div class="wins">wins</div>
-                            <div class="losses">losses</div>
-                        </div>
-                    </div>
+    <div class="row">
+      <div class="col-sm-12" id="instructions">
+        <h2>Instructions</h2>
+        <p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number </p> 
+        <p>The value of each crystal is hidden from you until you click on it. Each time when the game starts, the value of each crystal will change.</p>
+      </div>
+    </div>
 
-                    <div class="row">
-                            <div class="col-md-3"><img src="./assets/images/carnelian.jpg" alt="carnelian"></div>
-                            <div class="col-md-3"><img src="./assets/images/labradorite.jpg" alt="labradorite"></div>
-                            <div class="col-md-3"><img src="./assets/images/lapisLazuli.jpg" alt="lapiz lazuli"></div>
-                            <div class="col-md-3"><img src="./assets/images/tourmalinatedQuartz.jpg" alt="tourmalinated quartz"></div>
-                        </div>
+    <div class="row">
+      <div class="col-sm-4" id="randomNumber">random number
+        <div class="bigScore">17</div>
+      </div>
+      <div class="col-sm-4" id="yourTotal">your number
+        <div class="bigScore">20</div>
+      </div>
+      <div class="col-sm-4" id="scoreBoard">scoreboard
+        <div class="wins">wins</div>
+        <div class="losses">losses</div>
+      </div>
+    </div>
 
-              </div>
+    <div class="row">
+      <div class="col-md-3" id="crystals"><img src="./assets/images/roseQuartz.jpg" alt="roseQuartz"></div>
+      <div class="col-md-3" id="crystals"><img src="./assets/images/lapisLazuli.jpg" alt="lapizLazuli"></div>
+      <div class="col-md-3" id="crystals"><img src="./assets/images/amethyst.jpg" alt="amethyst"></div>
+      <div class="col-md-3" id="crystals"><img src="./assets/images/apatite.jpg" alt="apatite"></div>
+    </div>
+
+  </div>
 
 </body>
+
 </html>
