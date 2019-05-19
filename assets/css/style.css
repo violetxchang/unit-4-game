@@ -2,8 +2,8 @@ body {
     background-image: url("/unit-4-game/assets/images/bg.jpg");
     background-repeat: repeat;
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 15px;
+    line-height: 18px;
     color: black;
 }
 
@@ -23,6 +23,7 @@ div {
     width: 600px;
     align-content: center;
     margin: 20px auto;
+    border-top: 1px solid rgb(91, 22, 105);
 }
 
 h1 {
@@ -31,8 +32,8 @@ h1 {
     letter-spacing: .25em;
     text-transform: uppercase;
     line-height: 74px;
-    padding-top: 35px;
-    padding-bottom: 30px;
+    padding-top: 45px;
+    padding-bottom: 40px;
 }
 
 h2 {
@@ -46,13 +47,13 @@ h2 {
 #instructions {
     border-top: 1px solid rgb(91, 22, 105);
     background-color: lavenderblush;
-    line-height: 
+    padding: 10px 40px;
 }
 
-#randomNumber, #yourTotal, #scoreBoard {
+#targetScore, #yourScore, #scoreBoard {
     background-color: lavender;
-    font-size: 16px;
-    line-height: 35px;
+    font-size: 19px;
+    line-height: 38px;
     padding-bottom: 17px;
     text-transform: uppercase;
     border: 5px solid white;
@@ -66,7 +67,7 @@ h2 {
     color: rgb(91, 22, 105);
 }
 
-#crystals {
+#one, #two, #three, #four {
     padding: 20px 0;
 }
 
