@@ -34,7 +34,7 @@ var getRandom = function (min, max) {
 }
 
 var startGame = function () {
-    var yourScore = 0;
+    yourScore = 0;
     targetScore = getRandom(19, 120);
     crystal.one.value = getRandom(1, 12);
     crystal.two.value = getRandom(1, 12);
@@ -46,13 +46,14 @@ var startGame = function () {
 
 }
 
-//add values of crystals to "your score" every time a crystal is clicked
-var addValues = function (crystal) {
-    yourScore = yourScore + crystal.value;
-
-    $("#yourScoreDiv").html(yourScore);
-    checkWin();
-}
+        //add values of crystals to "your score" every time a crystal is clicked
+        var addValues = function (crystal) {
+            yourScore = yourScore + crystal.value;
+        
+            $("#yourScoreDiv").html(yourScore);
+            checkWin();
+    
+    }
 
 
 //add wins and losses to scoreboard
